@@ -32,6 +32,19 @@ class javatest
         {
             System.out.print(it.next()+"->");
         }
+        System.out.println();
+        
+        Stack<Integer> st=new Stack<>();
+        st.push(10);
+        st.push(100);
+
+        while(st.isEmpty()==false)
+        {
+            System.out.println(st.peek());
+            st.pop();
+           // System.out.println(st.pop());
+        }
+
 
     }
 }
