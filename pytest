@@ -1,0 +1,9 @@
+from itertools import *
+
+def solution(x,y):
+    print("the users have given input {a}, {b}".format(a=x,b=y))
+    a=[i for i in range(1,100)]
+    print(a)
+
+if __name__=='__main__':
+    solution(10,20)
