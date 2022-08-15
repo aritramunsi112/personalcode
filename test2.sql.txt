@@ -2,3 +2,5 @@ select * from t_poa_policy;
 
 select /*+ parallel(10)*/ *
 from dual;
+
+select * from dual;
